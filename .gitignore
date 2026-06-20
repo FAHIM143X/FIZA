@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Session files (contains auth keys)
+session/
+fiza-session/
+
+# Database files (user data)
+database/*.json
+!database/.gitkeep
+
+# Temporary files
+temp/*
+!temp/.gitkeep
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
